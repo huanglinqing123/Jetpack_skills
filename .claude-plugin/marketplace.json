@@ -1,0 +1,24 @@
+{
+  "name": "jetpack-skill",
+  "description": "Jetpack and modern Android development skills.",
+  "owner": {
+    "name": "Linqing HUANG",
+    "email": "1306214077@qq.com"
+  },
+  "plugins": [
+    {
+      "name": "jetpack-skill",
+      "source": ".",
+      "description": "Codex plugin for Jetpack and modern Android development skills.",
+      "version": "0.1.0",
+      "keywords": [
+        "android",
+        "jetpack",
+        "codex",
+        "claude",
+        "skill"
+      ],
+      "category": "development"
+    }
+  ]
+}

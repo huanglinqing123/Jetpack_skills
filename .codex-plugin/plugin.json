@@ -1,0 +1,44 @@
+{
+  "name": "jetpack-skill",
+  "version": "0.1.0",
+  "description": "Codex plugin for Jetpack and modern Android development skills.",
+  "author": {
+    "name": "Linqing HUANG",
+    "email": "1306214077@qq.com",
+    "url": "[TODO: https://github.com/author]"
+  },
+  "homepage": "[TODO: https://github.com/author/jetpack-skill]",
+  "repository": "[TODO: https://github.com/author/jetpack-skill]",
+  "license": "MIT",
+  "keywords": [
+    "android",
+    "jetpack",
+    "codex",
+    "skill"
+  ],
+  "skills": "./plugins/",
+  "interface": {
+    "displayName": "jetpack-skill",
+    "shortDescription": "Jetpack and modern Android development guidance for Codex.",
+    "longDescription": "A Codex plugin that packages skills and references for Jetpack, Android architecture, Compose, Navigation, lifecycle, and related modern Android development workflows.",
+    "developerName": "[TODO: Developer Name]",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Reasoning"
+    ],
+    "websiteURL": "[TODO: https://github.com/author/jetpack-skill]",
+    "privacyPolicyURL": "[TODO: https://github.com/author/jetpack-skill/blob/main/PRIVACY.md]",
+    "termsOfServiceURL": "[TODO: https://github.com/author/jetpack-skill/blob/main/LICENSE]",
+    "defaultPrompt": [
+      "Help me design a Jetpack Compose screen.",
+      "Review this Android architecture for Jetpack best practices.",
+      "Explain how to migrate this feature to modern Android APIs."
+    ],
+    "brandColor": "#3B82F6",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

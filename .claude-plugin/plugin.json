@@ -1,0 +1,16 @@
+{
+  "name": "jetpack-skill",
+  "version": "0.1.0",
+  "description": "Codex plugin for Jetpack and modern Android development skills.",
+  "author": {
+    "name": "Linqing HUANG",
+    "email": "1306214077@qq.com"
+  },
+  "keywords": [
+    "android",
+    "jetpack",
+    "codex",
+    "claude",
+    "skill"
+  ]
+}

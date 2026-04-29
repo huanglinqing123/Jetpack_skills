@@ -1,0 +1,23 @@
+{
+  "name": "jetpack-skill",
+  "interface": {
+    "displayName": "jetpack-skill"
+  },
+  "plugins": [
+    {
+      "name": "jetpack-skill",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "interface": {
+        "displayName": "jetpack-skill"
+      }
+    }
+  ]
+}
