@@ -1,5 +1,5 @@
 {
-  "name": "jetpack-skill",
+  "name": "jetpack-skills",
   "description": "Jetpack and modern Android development skills.",
   "owner": {
     "name": "Linqing HUANG",
@@ -7,17 +7,35 @@
   },
   "plugins": [
     {
-      "name": "jetpack-skill",
-      "source": ".",
-      "description": "Codex plugin for Jetpack and modern Android development skills.",
+      "name": "compose-best-practices",
+      "source": "./plugins/compose-best-practices",
+      "description": "Jetpack Compose best practices for MAD architecture and Android UI quality governance.",
       "version": "0.1.0",
       "keywords": [
         "android",
         "jetpack",
+        "compose",
+        "mad",
+        "ui",
+        "recomposition",
+        "claude",
+        "skill"
+      ],
+      "category": "development"
+    },
+    {
+      "name": "kotlin-coroutines",
+      "source": "./plugins/kotlin-coroutines",
+      "description": "Kotlin Coroutines guidance for structured concurrency, lifecycle safety, Flow, Channel, and tests.",
+      "version": "0.1.0",
+      "keywords": [
+        "android",
         "kotlin",
         "coroutines",
         "flow",
-        "codex",
+        "channel",
+        "structured-concurrency",
+        "testing",
         "claude",
         "skill"
       ],

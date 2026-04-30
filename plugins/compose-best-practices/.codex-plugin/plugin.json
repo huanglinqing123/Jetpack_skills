@@ -1,0 +1,45 @@
+{
+  "name": "compose-best-practices",
+  "version": "0.1.0",
+  "description": "Jetpack Compose best practices for MAD architecture and Android UI quality governance.",
+  "author": {
+    "name": "Linqing HUANG",
+    "email": "1306214077@qq.com",
+    "url": "https://github.com/huanglinqing123/Jetpack_skills"
+  },
+  "homepage": "https://github.com/huanglinqing123/Jetpack_skills",
+  "repository": "https://github.com/huanglinqing123/Jetpack_skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "android",
+    "jetpack",
+    "compose",
+    "mad",
+    "ui",
+    "recomposition",
+    "codex",
+    "skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "compose-best-practices",
+    "shortDescription": "Jetpack Compose review and refactor guidance.",
+    "longDescription": "A Codex plugin for Jetpack Compose best practices, covering MAD architecture, unidirectional data flow, state hoisting, side effects, lifecycle-aware Flow collection, Lazy layouts, recomposition performance, component APIs, accessibility, and Preview coverage.",
+    "developerName": "Linqing HUANG",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Reasoning"
+    ],
+    "websiteURL": "https://github.com/huanglinqing123/Jetpack_skills",
+    "privacyPolicyURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Review this Jetpack Compose code for best-practice violations.",
+      "Refactor this Compose screen to follow state down, events up.",
+      "Check this Compose UI for recomposition and side-effect risks."
+    ],
+    "brandColor": "#3B82F6"
+  }
+}

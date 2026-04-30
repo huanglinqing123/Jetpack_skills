@@ -1,7 +1,7 @@
 {
-  "name": "jetpack-skill",
+  "name": "kotlin-coroutines",
   "version": "0.1.0",
-  "description": "Codex plugin for Jetpack and modern Android development skills.",
+  "description": "Kotlin Coroutines guidance for structured concurrency, lifecycle safety, Flow, Channel, and tests.",
   "author": {
     "name": "Linqing HUANG",
     "email": "1306214077@qq.com",
@@ -12,18 +12,20 @@
   "license": "Apache-2.0",
   "keywords": [
     "android",
-    "jetpack",
     "kotlin",
     "coroutines",
     "flow",
+    "channel",
+    "structured-concurrency",
+    "testing",
     "codex",
     "skill"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "jetpack-skill",
-    "shortDescription": "Jetpack and modern Android development guidance for Codex.",
-    "longDescription": "A Codex plugin that packages skills and references for Jetpack, Android architecture, Compose, Navigation, lifecycle, and related modern Android development workflows.",
+    "displayName": "kotlin-coroutines",
+    "shortDescription": "Kotlin Coroutines correctness and testability guidance.",
+    "longDescription": "A Codex plugin for Kotlin Coroutines review and refactoring, covering structured concurrency, scope ownership, Dispatchers, main-safe suspend functions, cancellation, exception handling, Flow, StateFlow, SharedFlow, Channel, lifecycle-aware collection, and coroutine testing.",
     "developerName": "Linqing HUANG",
     "category": "Developer Tools",
     "capabilities": [
@@ -35,14 +37,10 @@
     "privacyPolicyURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/LICENSE",
     "defaultPrompt": [
-      "Help me design a Jetpack Compose screen.",
       "Review this Kotlin coroutine code for structured concurrency and cancellation safety.",
-      "Review this Android architecture for Jetpack best practices.",
-      "Explain how to migrate this feature to modern Android APIs."
+      "Refactor this coroutine code to inject dispatchers and become testable.",
+      "Check this Flow collection code for lifecycle and backpressure issues."
     ],
-    "brandColor": "#3B82F6",
-    "composerIcon": "./assets/icon.png",
-    "logo": "./assets/logo.png",
-    "screenshots": []
+    "brandColor": "#7C3AED"
   }
 }

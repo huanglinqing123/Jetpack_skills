@@ -1,0 +1,19 @@
+{
+  "name": "compose-best-practices",
+  "version": "0.1.0",
+  "description": "Jetpack Compose best practices for MAD architecture and Android UI quality governance.",
+  "author": {
+    "name": "Linqing HUANG",
+    "email": "1306214077@qq.com"
+  },
+  "keywords": [
+    "android",
+    "jetpack",
+    "compose",
+    "mad",
+    "ui",
+    "recomposition",
+    "claude",
+    "skill"
+  ]
+}

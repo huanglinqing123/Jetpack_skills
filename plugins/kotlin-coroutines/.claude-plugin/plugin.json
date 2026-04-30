@@ -1,18 +1,19 @@
 {
-  "name": "jetpack-skill",
+  "name": "kotlin-coroutines",
   "version": "0.1.0",
-  "description": "Codex plugin for Jetpack and modern Android development skills.",
+  "description": "Kotlin Coroutines guidance for structured concurrency, lifecycle safety, Flow, Channel, and tests.",
   "author": {
     "name": "Linqing HUANG",
     "email": "1306214077@qq.com"
   },
   "keywords": [
     "android",
-    "jetpack",
     "kotlin",
     "coroutines",
     "flow",
-    "codex",
+    "channel",
+    "structured-concurrency",
+    "testing",
     "claude",
     "skill"
   ]
