@@ -19,7 +19,7 @@
     "codex",
     "skill"
   ],
-  "skills": "./plugins/",
+  "skills": "./skills/",
   "interface": {
     "displayName": "jetpack-skill",
     "shortDescription": "Jetpack and modern Android development guidance for Codex.",

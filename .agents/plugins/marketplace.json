@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "compose-best-practices",
+      "name": "jetpack-skill",
       "source": {
         "source": "local",
-        "path": "./plugins/compose-best-practices"
+        "path": "."
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -16,22 +16,7 @@
       },
       "category": "Development",
       "interface": {
-        "displayName": "compose-best-practices"
-      }
-    },
-    {
-      "name": "kotlin-coroutines",
-      "source": {
-        "source": "local",
-        "path": "./plugins/kotlin-coroutines"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Development",
-      "interface": {
-        "displayName": "kotlin-coroutines"
+        "displayName": "jetpack-skill"
       }
     }
   ]
