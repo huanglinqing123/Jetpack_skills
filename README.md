@@ -14,11 +14,6 @@ The project will continue to grow as a curated set of Jetpack-related skills.
 | Skill | Status | Summary | Main Use Cases |
 | --- | --- | --- | --- |
 | [compose-best-practices](./plugins/compose-best-practices/SKILL.md) | Available | Jetpack Compose best practices for MAD architecture, recomposition performance, state, side effects, Lazy layouts, component APIs, accessibility, and Preview coverage. | Compose code review, UI refactor, architecture governance |
-| compose-performance | Planned | Compose performance diagnostics and optimization playbook for recomposition, stability, allocation, Lazy layout, and tracing. | Performance review, jank analysis |
-| compose-navigation | Planned | Navigation guidance for Compose screens, Route boundaries, typed arguments, deep links, and multi-back-stack patterns. | Navigation design, refactor |
-| lifecycle-state | Planned | Lifecycle-aware state collection, state restoration, SavedStateHandle, Flow, StateFlow, and UI state modeling practices. | State management, lifecycle review |
-| material-design-compose | Planned | Material Design and Compose component usage conventions for consistent UI implementation. | UI implementation, design review |
-| compose-testing | Planned | Compose UI testing, screenshot testing, semantics, test tags, and testable component design. | Test generation, testability review |
 
 ## Quick Start
 
