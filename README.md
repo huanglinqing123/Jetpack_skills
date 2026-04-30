@@ -30,4 +30,4 @@ git clone git@github.com:huanglinqing123/Jetpack_skills.git ~/Jetpack_skills
 
 ## License
 
-MIT
+Apache License 2.0
