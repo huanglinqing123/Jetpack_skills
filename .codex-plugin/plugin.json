@@ -21,7 +21,7 @@
     "displayName": "jetpack-skill",
     "shortDescription": "Jetpack and modern Android development guidance for Codex.",
     "longDescription": "A Codex plugin that packages skills and references for Jetpack, Android architecture, Compose, Navigation, lifecycle, and related modern Android development workflows.",
-    "developerName": "[TODO: Developer Name]",
+    "developerName": "Linqing HUANG",
     "category": "Developer Tools",
     "capabilities": [
       "Read",

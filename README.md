@@ -25,7 +25,7 @@ jetpack-skill/
 
 Add skills under `plugins/`. Each skill should live in its own directory and include a `SKILL.md` file. Long examples, specs, or topic-specific rules can be split into a local `references/` directory and linked from `SKILL.md`.
 
-Before publishing, update the TODO fields in both plugin manifests:
+Before publishing, review the plugin manifests:
 
 - `.codex-plugin/plugin.json`
 - `.claude-plugin/plugin.json`
