@@ -1,41 +1,97 @@
-# jetpack-skill
+# Jetpack Skills
 
-Plugin project for Jetpack and modern Android development skills.
+Jetpack Skills is a Codex plugin collection for Android modern development. It focuses on Jetpack, Jetpack Compose, MAD architecture, lifecycle-aware UI, state management, navigation, performance, testability, and code review practices.
+
+This repository currently keeps both marketplace entry formats:
+
+- Codex marketplace: `.agents/plugins/marketplace.json`
+- Claude plugin marketplace: `.claude-plugin/marketplace.json`
+
+The project will continue to grow as a curated set of Jetpack-related skills.
+
+## Skill List
+
+| Skill | Status | Summary | Main Use Cases |
+| --- | --- | --- | --- |
+| [compose-best-practices](./plugins/compose-best-practices/SKILL.md) | Available | Jetpack Compose best practices for MAD architecture, recomposition performance, state, side effects, Lazy layouts, component APIs, accessibility, and Preview coverage. | Compose code review, UI refactor, architecture governance |
+| compose-performance | Planned | Compose performance diagnostics and optimization playbook for recomposition, stability, allocation, Lazy layout, and tracing. | Performance review, jank analysis |
+| compose-navigation | Planned | Navigation guidance for Compose screens, Route boundaries, typed arguments, deep links, and multi-back-stack patterns. | Navigation design, refactor |
+| lifecycle-state | Planned | Lifecycle-aware state collection, state restoration, SavedStateHandle, Flow, StateFlow, and UI state modeling practices. | State management, lifecycle review |
+| material-design-compose | Planned | Material Design and Compose component usage conventions for consistent UI implementation. | UI implementation, design review |
+| compose-testing | Planned | Compose UI testing, screenshot testing, semantics, test tags, and testable component design. | Test generation, testability review |
+
+## Quick Start
+
+```bash
+# Clone the skill repository
+git clone git@github.com:huanglinqing123/Jetpack_skills.git ~/Jetpack_skills
+
+# Add it as a local Codex plugin marketplace if your environment supports local marketplaces
+# codex plugin marketplace add ~/Jetpack_skills
+
+# For local plugin development, keep the repository path available to Codex
+# and iterate on skills under ./plugins/<skill-name>/SKILL.md
+```
 
 ## Project Structure
 
 ```text
-jetpack-skill/
-  .codex-plugin/
-    plugin.json
-  .agents/
-    plugins/
-      marketplace.json
-  .claude-plugin/
-    plugin.json
-    marketplace.json
-  assets/
-  plugins/
-    compose-best-practices/
-      SKILL.md
-      references/
+Jetpack_skills/
+├── .agents/
+│   └── plugins/
+│       └── marketplace.json              # Codex marketplace config
+├── .claude-plugin/
+│   ├── marketplace.json                  # Claude plugin marketplace config
+│   └── plugin.json                       # Claude plugin metadata
+├── .codex-plugin/
+│   └── plugin.json                       # Codex plugin metadata
+├── assets/                               # Plugin icons and visual assets
+├── plugins/
+│   └── compose-best-practices/
+│       ├── SKILL.md                      # Skill entry point
+│       └── references/                   # Detailed topic references
+│           ├── component-api-preview-accessibility.md
+│           ├── performance-and-lazy-layout.md
+│           ├── side-effects-and-lifecycle.md
+│           └── state-and-architecture.md
+├── LICENSE
+├── PRIVACY.md
+└── README.md
 ```
 
 ## Development
 
-Add skills under `plugins/`. Each skill should live in its own directory and include a `SKILL.md` file. Long examples, specs, or topic-specific rules can be split into a local `references/` directory and linked from `SKILL.md`.
+Add new skills under `plugins/`. Each skill should live in its own directory and include a `SKILL.md` file.
 
-Before publishing, review the plugin manifests:
+Recommended layout:
+
+```text
+plugins/
+└── new-skill-name/
+    ├── SKILL.md
+    └── references/
+        └── topic-reference.md
+```
+
+Keep `SKILL.md` concise. Put long examples, detailed rules, specs, and topic-specific guidance into a local `references/` directory, then link those references from `SKILL.md`.
+
+Before publishing a change, review:
 
 - `.codex-plugin/plugin.json`
 - `.claude-plugin/plugin.json`
-
-If this repository is used as a local marketplace entry, keep the root plugin registered in both marketplace files:
-
 - `.agents/plugins/marketplace.json`
 - `.claude-plugin/marketplace.json`
 
-Then add real assets for any plugin icon and logo used by Codex.
+## Roadmap
+
+This repository is intended to evolve into a broader Jetpack skill set. Planned areas include:
+
+- Jetpack Compose performance and stability
+- Compose navigation and screen architecture
+- Lifecycle-aware state management
+- Compose UI testing and semantics
+- Material Design component implementation
+- Paging, Room, DataStore, WorkManager, and other Jetpack library practices
 
 ## License
 
