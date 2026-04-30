@@ -5,10 +5,10 @@
   "author": {
     "name": "Linqing HUANG",
     "email": "1306214077@qq.com",
-    "url": "[TODO: https://github.com/author]"
+    "url": "https://github.com/huanglinqing123/Jetpack_skills"
   },
-  "homepage": "[TODO: https://github.com/author/jetpack-skill]",
-  "repository": "[TODO: https://github.com/author/jetpack-skill]",
+  "homepage": "https://github.com/huanglinqing123/Jetpack_skills",
+  "repository": "https://github.com/huanglinqing123/Jetpack_skills",
   "license": "MIT",
   "keywords": [
     "android",
@@ -28,9 +28,9 @@
       "Write",
       "Reasoning"
     ],
-    "websiteURL": "[TODO: https://github.com/author/jetpack-skill]",
-    "privacyPolicyURL": "[TODO: https://github.com/author/jetpack-skill/blob/main/PRIVACY.md]",
-    "termsOfServiceURL": "[TODO: https://github.com/author/jetpack-skill/blob/main/LICENSE]",
+    "websiteURL": "https://github.com/huanglinqing123/Jetpack_skills",
+    "privacyPolicyURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/LICENSE",
     "defaultPrompt": [
       "Help me design a Jetpack Compose screen.",
       "Review this Android architecture for Jetpack best practices.",
