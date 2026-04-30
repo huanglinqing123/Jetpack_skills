@@ -14,6 +14,7 @@ The project will continue to grow as a curated set of Jetpack-related skills.
 | Skill | Status | Summary | Main Use Cases |
 | --- | --- | --- | --- |
 | [compose-best-practices](./plugins/compose-best-practices/SKILL.md) | Available | Jetpack Compose best practices for MAD architecture, recomposition performance, state, side effects, Lazy layouts, component APIs, accessibility, and Preview coverage. | Compose code review, UI refactor, architecture governance |
+| [kotlin-coroutines](./plugins/kotlin-coroutines/SKILL.md) | Available | Kotlin Coroutines guidance for structured concurrency, Dispatchers, cancellation, exception handling, Flow, Channel, and coroutine testing. | Coroutine code review, async refactor, testability review |
 
 ## Quick Start
 

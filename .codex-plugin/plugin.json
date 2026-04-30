@@ -13,6 +13,9 @@
   "keywords": [
     "android",
     "jetpack",
+    "kotlin",
+    "coroutines",
+    "flow",
     "codex",
     "skill"
   ],
@@ -33,6 +36,7 @@
     "termsOfServiceURL": "https://github.com/huanglinqing123/Jetpack_skills/blob/main/LICENSE",
     "defaultPrompt": [
       "Help me design a Jetpack Compose screen.",
+      "Review this Kotlin coroutine code for structured concurrency and cancellation safety.",
       "Review this Android architecture for Jetpack best practices.",
       "Explain how to migrate this feature to modern Android APIs."
     ],

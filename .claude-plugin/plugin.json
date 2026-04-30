@@ -9,6 +9,9 @@
   "keywords": [
     "android",
     "jetpack",
+    "kotlin",
+    "coroutines",
+    "flow",
     "codex",
     "claude",
     "skill"
